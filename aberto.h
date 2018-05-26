@@ -1,21 +1,21 @@
 #include <vector>
-#include <iostream>
 #include <pthread.h>
 #include <cstdio>
 #include <utility>
+#include <unordered_map>
 
 #define TAMBUCKET 1024
-#define fhash(i) (i*2654435761) % TAMBUCKET
-
-typedef struct{
-    pthread_mutex_t lock;
-    vector<int> l;
-}lista;
+#define fhash(chave) (chave*2654435761) % TAMBUCKET
 
 class meuhash{
 
-    vector<int, lista> hash;
+    //int hash[TAMBUCKET];
+    pthread_mutex_t locks[64];	
+    int hash[TAMBUCKET];
+    
 	public:
+        meuhash();
+        
 		int get(int chave);
 		void put(int chave);
 };
