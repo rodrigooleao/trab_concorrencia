@@ -21,7 +21,7 @@ int meuhash::get( int chave){
             if (hash[index].l[i] == chave) result = hash[index].l[i];
         }
     }
-
+    
     pthread_mutex_unlock(hash[index].lock);
 
     return result;
