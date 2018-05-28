@@ -1,3 +1,7 @@
+#include <vector>
+#include <pthread.h>
+#include <cstdio>
+#include <utility>
 
 #define TAMBUCKET 1024
 #define fhash(i) (i*2654435761) % TAMBUCKET
@@ -5,12 +9,10 @@
 typedef struct{
     pthread_mutex_t lock;
     vector<int> l;
-}lista;
+} lista;
 
 class meuhash{
-
-	
-    
+    vector <lista> hash;
 	public:
 		int get(int chave);
 		void put(int chave);
