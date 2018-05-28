@@ -17,7 +17,9 @@ int meuhash::get( int chave){
 
     if (hash[index].l.size() == 0) result = -1;
     else {
-        result = hash[index].l[0]; //eu nao sei qual elemento da lista é pra ir pro result. Tem que tirar esse elemento da lista?
+        for (int i=0; i<hash[index].l.size(); i++) {
+            if (hash[index].l[i] == chave) result =
+        }
     }
 
     pthread_mutex_unlock(hash[index].lock);
