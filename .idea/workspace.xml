@@ -9,7 +9,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8239bad-ae6f-4e50-b3c8-6dbf3027e7d4" name="Default" comment="Criei o hash encadeado e as funções de forma similar do hash aberto. Tive umas duvidas na parte de retornar a chave" />
+    <list default="true" id="e8239bad-ae6f-4e50-b3c8-6dbf3027e7d4" name="Default" comment="Criei o hash encadeado e as funções de forma similar do hash aberto. Tive umas duvidas na parte de retornar a chave">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encadeado.h" beforeDir="false" afterPath="$PROJECT_DIR$/encadeado.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash_encadeado.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hash_encadeado.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashmain.cc" beforeDir="false" afterPath="$PROJECT_DIR$/hashmain.cc" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +27,8 @@
       <file leaf-file-name="aberto.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aberto.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="60">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -37,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="encadeado.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="encadeado.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/encadeado.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="210">
+              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -49,8 +54,17 @@
       <file leaf-file-name="hash_encadeado.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hash_encadeado.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="120">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hashmain.cc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hashmain.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -64,8 +78,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/hash-aberto.cpp" />
-        <option value="$PROJECT_DIR$/encadeado.h" />
         <option value="$PROJECT_DIR$/hash_encadeado.cpp" />
+        <option value="$PROJECT_DIR$/encadeado.h" />
+        <option value="$PROJECT_DIR$/hashmain.cc" />
       </list>
     </option>
   </component>
@@ -89,6 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,7 +116,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,7 +149,7 @@
       <workItem from="1527191108774" duration="492000" />
       <workItem from="1527465860665" duration="269000" />
       <workItem from="1527466163354" duration="1870000" />
-      <workItem from="1527454338255" duration="396000" />
+      <workItem from="1527454338255" duration="3255000" />
     </task>
     <task id="LOCAL-00001" summary="Criei o hash encadeado e as funções de forma similar do hash aberto. Tive umas duvidas na parte de retornar a chave">
       <created>1527467896409</created>
@@ -161,13 +176,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3027000" />
+    <option name="totallyTimeSpent" value="5886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24963397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -277,6 +292,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/hash-aberto.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -286,22 +304,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aberto.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="18" />
+        <state relative-caret-position="60">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hash_encadeado.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="120">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/encadeado.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="210">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashmain.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>

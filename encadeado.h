@@ -2,6 +2,10 @@
 #include <pthread.h>
 #include <cstdio>
 #include <utility>
+#include <unordered_map>
+
+
+using namespace std;
 
 #define TAMBUCKET 1024
 #define fhash(i) (i*2654435761) % TAMBUCKET
