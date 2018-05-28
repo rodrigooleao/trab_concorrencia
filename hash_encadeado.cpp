@@ -18,7 +18,7 @@ int meuhash::get( int chave){
     if (hash[index].l.size() == 0) result = -1;
     else {
         for (int i=0; i<hash[index].l.size(); i++) {
-            if (hash[index].l[i] == chave) result =
+            if (hash[index].l[i] == chave) result = hash[index].l[i];
         }
     }
 
